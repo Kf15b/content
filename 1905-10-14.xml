@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/dig-eg-gaz/resources/master/out/egSchema.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?> <?xml-stylesheet type="text/css" href="dig-eg-gaz.css"?> <TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -12,6 +13,7 @@
             <editionStmt>
                 <edition>
                     <date when="2016-09-19">September 19, 2016</date>
+                    <gloss>1</gloss>
                 </edition>
             </editionStmt>
             <publicationStmt>
@@ -22,20 +24,22 @@
                 <bibl>
                     <title>Egyptian Gazette</title>
                     <date when="1905-10-14">October 14, 1905</date>
-                </bibl>
+                    <extent><measure unit="pages" quantity="6">6</measure> pages</extent></bibl>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
     <text>
         <body>
+            <pb n="1"/>
             <div type="page" n="1">
                 <head>THE EGYPTIAN GAZETTE</head>
                 <!-- Enter issue number, date, and correct number of pages -->
                 <head type="sub">No. 7239] ALEXANDRIA, THURSDAY, JULY 13, 1905. [SIX PAGES P.T. 1. </head>
                 <div type="section" scope="advertisement"> </div>
             </div>
+            <pb n="2"/>
             <div type="page" n="2">
-                <div type="item" scope="advertisement">
+                <div type="advert">
                     <head>Royal Insurance Coy</head>
                     <p>FIRE AND LIFE.</p>
                     <p>Largest Fire Office in the World.</p>
@@ -53,7 +57,7 @@
                     <p>Fred. Ott &amp;Co., Swb-Agents, Cairo</p>
                     <p>31-3-906</p>
                 </div>
-                <div type="item" scope="advertisement" xml:id="deg-ad-gwy01">
+                <div type="advert" xml:id="deg-ad-gwy01">
                     <head>GWYNNES, Limited.</head>
                     <p>(J. &amp; H. GWYNNE, LTD., &amp; GWYNNE &amp; Co., UNITED.)</p>
                     <p>Telegrams--GWYNNE, LONDON.</p>
@@ -78,17 +82,17 @@
                     <p>Works- Hammersmith, London, W</p>
                     <p>23362-11-12-904</p>
                 </div>
-                <div type="item" scope="advertisement" xml:id="deg-ad-nsa01">
+                <div type="advert" xml:id="deg-ad-nsa01">
                     <head>N. SPATHIS</head>
                     <p>THE BRITISH AERATED &amp; MINERAL WATER MANUFACTORY.</p>
                     <p>CAIRO Exbekieh ALEXANDRIA Rue Avernoff</p>
                     <p>Soda Water. Lemonade, Ginger Ale, Ginger Beer. Tonic Water</p>
                     <p>Pomegranade, Orangeaade, Pineapple, Champagne, Cider, etc., etc.</p>
-                    <p> Water guaranteed by Chamberlain’s Filter (Pasteur’s System).</p>
+                    <p>Water guaranteed by Chamberlain’s Filter (Pasteur’s System).</p>
                     <p>Inventor of WHISKY &amp; SODA and BRANDY &amp; SODA, bottled ready for
                         use.</p>
-                    <p> Sole Agents in Egypt and Soudan for</p>
-                    <p> J. Calvet &amp; Co. Bordeaux. Wine &amp; Cognacs.</p>
+                    <p>Sole Agents in Egypt and Soudan for</p>
+                    <p>J. Calvet &amp; Co. Bordeaux. Wine &amp; Cognacs.</p>
                     <p>Louis Roederer. Rheims. Champagnes.</p>
                     <p>August Engel. Wiesbaden. Rhine and Moselle Wines.</p>
                     <p>Mackie &amp; Co. Glasgow. Lagavulin, White Horse Cellar &amp; other
@@ -112,7 +116,7 @@
                     <ab>John B. Caffari.</ab>
                     <p>Alecandria &amp;Cairo.</p>
                 </div>
-                <div type="item" scope="advertisement" xml:id="deg-ad-cbb01">
+                <div type="advert" xml:id="deg-ad-cbb01">
                     <head>Callard &amp; Bowser's BUTTER - SCOTCH</head>
                     <p>(The Celebrated Sweet for Children).</p>
                     <p>Really wholesome Confectionary</p>
@@ -155,7 +159,7 @@
                     <p>The officers and clerks of the Bank are pledged to secrecy as to the trans
                         actions of customers. 9.90</p>
                 </div>
-                <div type="item" scope="advertisement" xml:id="deg-ad-vdt01">
+                <div type="advert" xml:id="deg-ad-vdt01">
                     <head>THE VAL DE TRAVERS ASPHALTE PAVING COMPANY, LIMITED.</head>
                     <p>Hamilton House, Bishopgate St Without, LONDON, E.C.</p>
                     <p>CONTRACTORS TO BRITISH WAR OFFICE</p>
@@ -178,7 +182,7 @@
                         makers</p>
                     <p>Wxxxxx &amp;Co., Weston-s-Mare, Nugland.</p>
                 </div>
-                <div type="item" scope="advertisement">
+                <div type="advert">
                     <head>Walker &amp;Meimarchi, Limited.</head>
                     <p>The Egyptian Supply Stores.</p>
                     <p>Cairo and Alexandria.</p>
@@ -189,7 +193,7 @@
                     <p>Vintage Wines.</p>
                     <p>Provisions, Confectionery and Table Delicacies.</p>
                 </div>
-                <div type="item" scope="advertisement">
+                <div type="advert">
                     <head>The National Residence, Cairo.</head>
                     <p>One of the finest and most up-to-date residences.</p>
                     <p>Rooms furnished and not furnished. With or without board. Situated in the
@@ -199,16 +203,16 @@
                     <p>Chas. Bauer, General Manager, Cairo,</p>
                     <p>26515-30-11-905</p>
                 </div>
-                <div type="item" scope="advertisement">
+                <div type="advert">
                     <head>Hotel Du Nil, Cairo.</head>
                     <p>Re-opens on the 15th of October.</p>
                     <p>26510-31-3-906</p>
                 </div>
-                <div type="item" scope="advertisement">
+                <div type="advert">
                     <head>Hotel-Casino San Stefano. Is now open</head>
                     <p>26045-30-9-5</p>
                 </div>
-                <div type="item" scope="advertisement">
+                <div type="advert">
                     <head>A Gift From England.</head>
                     <p>Lace Cover Free with Illustrated Price List. Import Direct from the
                         Looms.</p>
@@ -232,7 +236,7 @@
                         649, Nottingham, England. Est 1857</p>
                     <p>25153-13-9-905</p>
                 </div>
-                <div type="item" scope="advertisement" xml:id="deg-ad-hdi01">
+                <div type="advert" xml:id="deg-ad-hdi01">
                     <head>Hall's Sanitary Washable Distemper</head>
                     <p>Made in 70 Colors</p>
                     <p>An artistic wall covering.</p>
@@ -258,7 +262,7 @@
                     <p>In Alexandria by RAMADAN YOUSSEF, Sanitary Contractor, Rue Sesostris.</p>
                     <p>General Agents: GEORGE MORRIS &amp; Co.. Alexandria &amp; Cairo.</p>
                 </div>
-                <div type="item" scope="advertisement">
+                <div type="advert">
                     <head>Comptoir National d'Escompte de Paris</head>
                     <p>Capital: 150,000,000,000 FRS.- $6,000,000 Fully Paid Up.</p>
                     <p>Head Office : 14, Rue Berere, Paris.</p>
@@ -275,7 +279,7 @@
                     <p>Purchase and sale of stock and shares in Egypt and Abroad.</p>
                     <p>Dividends Collected.</p>
                 </div>
-                <div type="item" scope="advertisement" xml:id="deg-ad-dia01">
+                <div type="advert" xml:id="deg-ad-dia01">
                     <head>DIAMONDS!</head>
                     <p>The largest and finest stock of Jewellery, Silver Plate, Watches, Clocks,
                         Dressing Bags, &amp;c., new and second-hand, In the world, at wholesale
@@ -289,8 +293,8 @@
                     <p>Established over 50 years</p>
                     <p>Cable Address: “Ruspoli, London."</p>
                 </div>
-                <div type="section" scope="weather">
-                    <head>DAILY WEATHER REPORT</head>
+                <div type="section" feature="weather">
+            <head>DAILY WEATHER REPORT</head>
                     <p>OBSERVATIONS BY THE SURVEY DEPARTMENT.</p>
                     <div type="subsection">
                         <table rend="frame" xml:id="AlexandriaWeather">
@@ -331,7 +335,7 @@
                         <p>The early morning was very misty but the air began to clear about eight
                             o'clock. The humidity is excessive. The barometer remains steady.</p>
                     </div>
-                    <div type="item" scope="newspaper">
+                    <div type="item">
                         <head>THE EGYPTIAN GAZETTE.</head>
                         <p>SUBSCRIPTIONS.—Alexandria, Cairo, and the Interior of Egypt (including
                             delivery in Alexandria or postage to subscriber’s address) P.T. 231½ per
@@ -358,7 +362,7 @@
                         <head>Death.</head>
                         <p>OREL.- On the 13th inst., at Maison Ozel, Bacos, Anton Orel, aged 70
                             years. Friends will please accept this intima- tion. No flowers.</p>
-                        <div type="item" scope="newspaper">
+                        <div type="item">
                             <p>The Egyptian Gazette </p>
                             <p>An English Daily Newspaper, Established in 1880. </p>
                             <p>Editor &amp; Manager: R. Snelling. </p>
@@ -400,8 +404,8 @@
                                 or Dubois, Paris, are usually sent back at once to the office of
                                 origin.</p>
                         </div>
-                        <div type="item" scope="calendar">
-                            <head> Calendar of Coming Events.</head>
+                        <div type="section" feature="comingEvents">
+                            <head>CALENDAR OF COMING Events.</head>
                             <head>Alexandria.</head>
                             <p>October.</p>
                             <p>Mon. 9 Mex prince's Restaurant des bBains Roumanian orchestra, every
@@ -426,16 +430,14 @@
                     </div>
                 </div>
             </div>
+            <pb n="3"/>
             <div type="page" n="3">
                 <cb n="1"/>
-                <div type="section">
+                <div type="section" feature="wire">
                     <div type="item">
                         <head>ENGLAND, FRANCE, AND GERMANY. </head>
-
                         <head>ALLEGED OFFER TO FRANCE.</head>
-
                         <head>AUTHORITATIVE CONTRADICTION.</head>
-
                         <div type="wireReport">
                             <p>BERLIN, October 13. It is understood here that Great Britain has
                                 informally assured Germany of the baselessness of the report
@@ -454,9 +456,7 @@
                     </div>
                     <div type="item">
                         <head>THE KARLSTAD AGREEMENT.</head>
-
                         <head>APPROVED BY THE RIKSDAG.</head>
-
                         <div type="wireReport">
                             <p>STOCKHOLM, October 13. The Swedish Riksdag has approved the
                                 convention of dissolution. (Reuter)</p>
@@ -468,9 +468,7 @@
                     </div>
                     <div type="item">
                         <head>ENGLAND'S RECEPTION IN JAPAN. </head>
-
                         <head>OFFICERS RECEIVED BY THE MIKADO.</head>
-
                         <div type="wireReport">
                             <p>TOKIO, Ootober 13. Admiral Noel and staff have been received by the
                                 Mikado. (Reuter)</p>
@@ -482,7 +480,6 @@
                     </div>
                     <div type="item">
                         <head>ASSASSINATIONS IN RUSSIA.</head>
-
                         <div type="wireReport">
                             <p>ST. PETERSBURG, October 13. The Chief of Police at Krasnoyarsk was
                                 killed while returning from the theatre yester¬day evening. The
@@ -493,9 +490,7 @@
                     </div>
                     <div type="item">
                         <head>THE MOSCOW STRIKES.</head>
-
                         <head>BARRICADES ERECTED.</head>
-
                         <div type="wireReport">
                             <p>Moscow, October 13. The strikers in Moscow having erected barri-cades
                                 to-day, the Cossacks charged and broke them down. There are sevoral
@@ -504,7 +499,6 @@
                     </div>
                     <div type="item">
                         <head>DEATH OF PRINCE TROUBETZKOI.</head>
-
                         <div type="wireReport">
                             <p>ST. PETERSBURG, October 13. Prince. Trobetrkni, the leader of the
                                 mo¬derate reformers, died suddenly at the close of a spirited speech
@@ -518,9 +512,7 @@
                     </div>
                     <div type="item">
                         <head>M. DELCASSE’S RETIREMENT</head>
-
                         <head>JAPANESE RUMOURS INCORRECT.</head>
-
                         <div type="wireReport">
                             <p>PARIS, October 13. A note from the Havas Agency declares that the
                                 Japanese rumours concerning the retir¬ement of M. Declasse are not
@@ -529,7 +521,6 @@
                     </div>
                     <div type="item">
                         <head>THE RUSSO-JAPANESE TREATY.</head>
-
                         <div type="wireReport">
                             <p>WASHINGTON, October 13. Ratifications of the Russo-Japanese treaty
                                 will be exchanged here to-morrow. (Reuter)</p>
@@ -537,25 +528,21 @@
                     </div>
                     <div type="item">
                         <head>LORD CROMER SAILS.</head>
-
                         <div type="wireReport">
                             <p>LONDON, October 13., Lord Cromer has left for Egypt. (Reuter)</p>
                         </div>
                     </div>
                     <div type="item">
                         <head>DEATH OF SIR HENRY IRVING.</head>
-
                         <div type="wireReport">
                             <p>LONDON, October 13. Sir Henry Irving died suddenly of syncope at
                                 Bradford after having performed in the theatre. (Reuter)</p>
                         </div>
                     </div>
                 </div>
-
                 <cb n="2"/>
-                <div type="section">
+                <div type="section" feature="local">
                     <head>LOCAL AND GENERAL.</head>
-
                     <div type="item">
                         <p>STRAY AND OWNERLESS DOGS found in the Boulac district of Cairo during
                             to-morrow night and at dawn of the 16th inst. will be poisoned by the
@@ -602,12 +589,10 @@
                             it is hoped that the man will recover from his serious burns.</p>
                     </div>
                 </div>
-                <div type="section">
+                <div type="section" feature="sport">
                     <head>SPORT AND PLAY.</head>
-
                     <div type="item">
                         <head>KHEDIVIAL YACHT CLUB.</head>
-
                         <head>VISIT OF H.H. THE KHEDIVE.</head>
                         <p>Yesterday was a great day in the annals of the Khedivial Yacht Club. At
                             an early hour in the forenoon all the merchantmen in the harbour had
@@ -636,8 +621,6 @@
                             Highness the Khedive for which the entries were as follows :— Boat Time
                             of Start Jessica \ 2.30 Akraba ) 2.32 Cattelaya 2.38 Tantah 2.40 Gumrook
                             2.43 Mssr 2.45 Calipso 2.56 Laurea</p>
-
-
                         <p>Prince Aziz’s magnificent cutter Laures first crossed the finishing line
                             in fine style, with every stitch of canvas stretched, pre¬senting a fine
                             spectacle which was greatly admired by the spectators watching from the
@@ -663,13 +646,9 @@
                             etc. of the vari- ous races will be published on Monday.</p>
                     </div>
                 </div>
-
                 <cb n="3"/>
                 <div type="item">
-                    <head>FAYOUM LIGHT RAILWAYS.</head>
-
-                    <head>PURCHASED BY ANGLO-BELGIAN COMBINATION</head>
-
+                    <head>FAYOUM LIGHT RAILWAYS. PURCHASED BY ANGLO-BELGIAN COMBINATION</head>
                     <p>The above company, which was constituted by Khedivial Decree in May, 1897,
                         with a capital of LE. 200,000, has passed into new hands by the purchase by
                         Messrs. Lambert and Ralli, on behalf of an Anglo Belgian group, of the
@@ -688,7 +667,6 @@
                 </div>
                 <div type="item">
                     <head>NEW BUILDINGS IN CAIRO.</head>
-
                     <p>The Societe Belge-Egyptienne de l'Esbekieh in conjunction-with the Daira
                         Khassa have decided upon demolishing all the small tem¬- porary buildings
                         now existing on the property purchased from the Djellal family some three
@@ -701,7 +679,6 @@
                 </div>
                 <div type="item">
                     <head>THE NEW TURBINE CUNARDER.</head>
-
                     <p>The new turbine propelled Cunard liner Carmania sails from Liverpool to New
                         York on December 2, and her voyage is arousing considerable interest on both
                         sides of the Atlantic. The passenger accommodation of the Carmania is in the
@@ -711,7 +688,6 @@
                 </div>
                 <div type="item">
                     <head>THE DIPHTHERIA EPIDEMIC.</head>
-
                     <p>Some of the local papers have stated lately that diphtheria is largely on the
                         increase in Cairo, whilst our contemporary Le Phare d'Alexandrie contradicts
                         the statement, and further avers that the Sanitary Department denies the
@@ -726,7 +702,6 @@
                 </div>
                 <div type="item">
                     <head>BANK OF EGYPT, LTD.</head>
-
                     <p>Mr. A. Zanneti Polzi has resigned his post as submanager, and the Board of
                         Directors has appointed Mr. Vittorio G. Gallichi in his place. He is
                         empowered to sign in conjunction with Messrs. Strong. Smith, or Jennings on
@@ -735,14 +710,12 @@
                 </div>
                 <div type="item">
                     <head>THE BANK OF SALONICA.</head>
-
                     <p>The Cairo branch of the Bank of Salonica will be opened on Monday under the
                         manage- ¬ment of Mr. Singer, formerly of the Credit Lyonnais. The offices
                         are situated in the immeuble Mosseri, rue El Manakh.</p>
                 </div>
                 <div type="item">
                     <head>SAN STEFANO CASINO.</head>
-
                     <p>The following is the programme of the Bra- cale orchestral concert to be
                         given to-morrow morning at the Casino at 10 a.m. :- 1.
                         Marelie-Nuptaile-Mendelssohn 2. Ouverture- La Sirene- Arber 3. Valse- La
@@ -750,9 +723,8 @@
                         casse Neisette-Tsaichowsky Dause Russo- Arbe- Chinoise 6. Ouverture-
                         Saul-Bazzini. </p>
                 </div>
-                <div type="item">
+                <div type="section" feature="steamerMovements">
                     <head>STEAMER MOVEMENTS.</head>
-
                     <p>The Khedivial express mail steamship El Kahira will leave Alexandria on
                         Wednesday for Piraeus, Smyrna, Mitylene, and Constanti¬nople. </p>
                     <p>The Ellerman S.S. Avon from Liverpool arrived yesterday with general cargo
@@ -763,15 +735,11 @@
                         general cargo and is due to arrive at Alexandria via Tunis and Malta on or
                         about the 27th inst.</p>
                 </div>
-
-
                 <cb n="4"/>
-                <div type="section">
+                <div type="section" feature="notesPortSaid">
                     <head>NOTES FROM PORT SAID.</head>
-
                     <div type="item">
                         <head>RAISING OF THE PHARAON II.</head>
-
                         <byline>(FROM OUR CORRESPONDENT).</byline>
                         <dateline>Port Said, Friday.</dateline>
                         <p>During the last few days, great efforts have been made to get the salvage
@@ -813,15 +781,13 @@
                             half months’ submersion.</p>
                     </div>
                 </div>
-                <div type="section">
-                    <head>NOTES FROM THE-SUDAN.</head>
-
+                <div type="section" feature="notesSudan">
+                    <head>NOTES FROM THE SUDAN.</head>
                     <div type="item">
                         <head>LOCUST SWARMS.</head>
-
                         <byline>(FROM OUR CORRESPONDENT.)</byline>
                         <dateline>Wad Medani, October 2.</dateline>
-                        <p> I informed you in my last letter the locusts were not expected to do
+                        <p>I informed you in my last letter the locusts were not expected to do
                             ranch harm to the crops owing to the heavy rains which had fallen.
                             Unhappily they are now more numerous than ever, and may yet do
                             considerable harm. It is very difficult to persuade the natives to take
@@ -859,7 +825,7 @@
                             L.E. 1 per annum for their sons’, education.</p>
                     </div>
                 </div>
-                <div type="item" scope="advertisement">
+                <div type="advert">
                     <p>BECK &amp; CO’S PILSENER BEER</p>
                     <p>BREMEN.</p>
                     <p>Obtainable from every Respectable Firm In Cairo, Alexandria &amp; the
@@ -868,13 +834,9 @@
                     <p>V. J. FLEURENT, Cairo</p>
                     <p>F. MICALLEF, Sole Agent, 11 Bab Midan, Alexandria</p>
                 </div>
-
                 <cb n="5"/>
                 <div type="item">
-                    <head>OBITUARY.</head>
-
-                    <head>SIR HENRY IRVING.</head>
-
+                    <head>OBITUARY. SIR HENRY IRVING.</head>
                     <p>John Henry Brodribb, who assumed the name of Henry Irving, was born on
                         February 6,1838, at Keiton near Glastonbury, and educated at Dr. Pinches’
                         school, in George Yard, Lombard Street, London. He made his first public ap-
@@ -958,19 +920,17 @@
                         in America, and also frequent visits to the provinces. He was knighted in
                         1895 and received the honorary degrees of LL.D. of Dublin, Cambridge and
                         Glasgow Universities.</p>
-
                 </div>
                 <cb n="6"/>
-                <div type="item">
+                <div type="section" xml:lang="fr" feature="chroniqueFinanciere">
                     <head>CHRONIQUE FINANCIERE</head>
-
                     <p>Vendredi 13 Octobre La situation monetaire nes’est pas ameliordes ioi plus
                         qu’en Europe, oul’on parle d’aug- menter encore le taux d’escompte. Aussi
                         les affaires sont-elles peu importantes sur notre marche, en depit d’une
                         fermete relative: sur les fluctuations qui ont en lien depuis ven- dredi
                         dernier deux tiers indiquent une hauses et un tiers une.baisse ; mais on
                         peut dire d’une facon generale que le calme a prevalu sur toute la ligne,
-                        exoepte en National Bank, Agricole, Markets, Anglo-American Nile et
+                        excepte en National Bank, Agricole, Markets, Anglo-American Nile et
                         Behera.</p>
                     <p>On espere une amelioration a la suite du versement de 10 £ par action que
                         doit faire la Daira Sanieh lu-di prochain. Ce versement auquel les princes
@@ -1032,9 +992,8 @@
                     <p>Somme toute, la semaine qui vient de se- couler n’a gu’ere ete plus active
                         que les deux qui l’out precedee, mais les cours ont ete plus fermes .</p>
                 </div>
-                <div type="item">
+                <div type="section" xml:lang="fr" feature="bulletinBourse">
                     <head>BULLETIN DE LA BOURSE</head>
-
                     <p>(Auiourd’ hui midi et demie)</p>
                     <p>Comme un digne corollaire de la semaine, le marche a fait prevue sujourd' hui
                         d’une inaction a peu pres complete. La corbeille a ete delals- see durant la
@@ -1055,12 +1014,13 @@
                     <p>Le reste du marche est absolument calme of sans variations.</p>
                 </div>
             </div>
+            <pb n="4"/>
             <div type="page" n="4">
                 <div type="item">
                     <p>THE, EGYPTIAN GAZETTE, SATURDAY, OCTOBER ,19ft5 • LONQQF COMMERCIAL RJSPQRT
                         October, 6'b. QUM ACCROIDB3.— 100 bag* offered end booght in, QUM ANIMI.— At
-                        motion to-dsy the mo: derate supply of 115 paokages Zuuibar was offered,
-                        whioh met a good demand, and 74 paokagoi sold. All strong and w*ek palish
+                        motion to-dsy the mo: derate supply of 115 packages Zuuibar was offered,
+                        which met a good demand, and 74 paokagoi sold. All strong and w*ek palish
                         sorts wero dearer, also pea sire siftings, while other kind* brought steady
                         prices. Pair to good psle and amber sorts all strong medium to bold at 15/
                         to 16/, mixed strong and weak palish at 8/ 8* 6d, pale mostly weak at 7/
@@ -1097,7 +1057,7 @@
                         only about one fourth sold, at and sinoo the sales, ^htgdberaUy steady
                         -prices. Re-scrapsi kinds were scarce and brought very full prioes, also
                         Chips. Dark Browns were neglected, and to sell lower prioes would bare bad
-                        to be taken. Bash was in small softly, bnt none sold. 8,001 cases and 105
+                        to be taken. Bash was in small softly, but none sold. 8,001 cases and 105
                         bags offered and about 600 packages sold. Re-ccraped, fioe part dial at 14/
                         15s, pale amber we'l scraped' at 9/ 10s to 10/, amber ditto at 8/ 6s. Fair
                         scraped and three quarter-scraped at 7/ 5s. Three quarter-scraped, good to
@@ -1114,7 +1074,7 @@
                         1,698 . 1,799 1,865 Stock, 8ept 30 ... 1,085/ 1,178 748 GUM OLIBANUM quiet
                         92 cases oflered and 80 sold, garblinge and siftings, Without leeorre, at
                         19s and ordinary garblings at 15r. OI.'M SANDBAO.—S4 pMogvlo, offered and 10
-                        sold, small yellow%> *t 48s 6d, piokings at 89s k IVORY.—The following
+                        sold, small yellow%> *t 48s 6d, piokings at 89s à IVORY.—The following
                         qnantitics hare arrived to data for the qnxs-terly >ues C-tober 34 Ton.'
                         nwf. lbs. Rest Indian... 12 0 0 18 Bgyptian _ ...• ... 18 18 3 8 West
                         Ooaet-Afrioa.. ?r.\ 10 12 1 11 Lisbon :......../... - 2 0 87 Sea Horse
@@ -1122,7 +1082,7 @@
                         0 0 0 The quantity offered was smaller than at the previous auctions. There
                         was good oompeti- tion throughout, the principal demand being for medium and
                         short-feathers and third lescriptions, both in srin^and^oolored feathers,
-                        whioh advanced fully l6per oBOt °’ Whites: The beat long, feathers were
+                        which advanced fully l6per oBOt °’ Whites: The beat long, feathers were
                         steady md occasionally 5 per oeo£. easier bat {nedjam s;zss as well as
                         medium and short and defeotivo were fully 10 por cent higher. /JVhite add
                         light fomina ■oj.d as the white. Dark (smina steady to 5 per esnt easier..
@@ -1155,7 +1115,7 @@
                         Sept. 30 •- 1905, 63 ; 1904, 64 ; 1903, O' ; 1902, 86 ; 1901, 52. 1900, 66.
                         , Laadel daring September 161, deliveries 17 OSTRICH PBATHERS:—The sale* com
                         me-.osd 2nd insk and ooncladed on the 6th . Inst They comprised 3,250 case*
-                        Cape, f oases Australian and 266 oases Bjyptian, of whioh about 3.187 oito*
+                        Cape, f oases Australian and 266 oases Bjyptian, of which about 3.187 oito*
                         Cape, 4 cues Austro lies and 226 eases Bgyptian sold. The weight of feathers
                         offered was 6 \670lb Cape add 9,2861b Bgyptian, against 64,781lb pipe Kd
                         SjnAUo in Jnlp ImI</p>
@@ -1177,20 +1137,20 @@
                         The industry is now in the hands of small proprietors and leaseholders, and
                         as tbs rainfall is very variable the crop is liable to wide fluctuations.
                         During the American Civil War, American “Orleans" seed was in- troduced and
-                        did well on irrigated land*, bat it has sinoe degenerated, and Bgyptian seed
+                        did well on irrigated land*, bat it has since degenerated, and Bgyptian seed
                         is generally considered unsuitable, thongh this o mchnion is probably not
                         well foonded. The varieties now grown are two, known as "wet" and "dry"
                         ootton, from the nataro of the soil in which they do best The yield is good,
                         sometimes es much as 550lb. of lint being obtained per acre, and the average
                         in a poor season not falling below 260lb. to 3001b. The ’,’4#” outton is not
-                        manured, bnt farm- yard manure is often applied to the "iret" ootton.
+                        manured, but farm- yard manure is often applied to the "iret" ootton.
                         Chemical fertilisers appear to be un- known. The "dry" ootton is harsh to
-                        the touch and short in staple, bnt of satia- fno wry oolour. It commands a
+                        the touch and short in staple, but of satia- fno wry oolour. It commands a
                         lower prioe than irrigated ootton. “Wet", or irrigated ootton is usually of
                         longer staple and of finer quality. This ootton obtains in Marseille/ and
                         Trieste a rather batter price thau ordinary American “Upland," ranking next
                         to the “JumeT' ootton of Bgypt; but in Manchester and Liverpool itU usually
-                        valued rather lower than American ’Upland,” bnt slightly above short-stapled
+                        valued rather lower than American ’Upland,” but slightly above short-stapled
                         Bast Indian ootton. “Dry” ootton is valaed at about one half penny a pound
                         less than “wet” ootton. The cultivator considers 4d. to 5d. per lb. a
                         remunerative price for ginned cotton. Professor Dunstan considers that- the
@@ -1210,7 +1170,7 @@
                         oimpeteqt agri cultural superintendent, with the necessary staff; and (her
                         farther offered to oontribiio seed sod to look after the disposal of ai y
                         ootton seot home. Mr. Lyttelton, however, decided that the Cyprns
-                        Goversnment ooold not.afford the expense whioh would, be in- volved in
+                        Goversnment could not.afford the expense which would, be in- volved in
                         embarking on any large eolysme for the improvement of the indostry, and Use
                         offer of the Association was therefore dr dined. This result is very
                         disappointing, for Professor Danstan’* report iudiested that the prospects
@@ -1227,7 +1187,7 @@
                         Mediterranean and the Yellow Sea. Now that Russia cannot play, in Aaiatfo
                         development, the part of the dog-in-the-manger, the Persian veto on the
                         .outhem all-rad rente across the Continent may be held as subject to
-                        revision. Interna- tional joalounea apart, the first link between Europe and
+                        revision. International joalounea apart, the first link between Europe and
                         snob a railroad woakl be the Ger- man line aero is Asia Minor, beginning on
                         the Asiatio aide of tb) Bosphorus, and ending at ihe harbour pf El Koweit,
                         on the Persian Golf —a total diatapoe of 1,750 miles. Bat the foot has been
@@ -1240,9 +1200,9 @@
                         proposed to oonneot the Mediterranean with the Eersian Galf by a line
                         beginning at Alexandria, creasing the Isthmus of Snex to tk^ Galf of Akbah,
                         end continuing thance to Bssorah and Koweit This line is fiOO miles /shorter
-                        than the German road, whioh starts .from the Asiatio side of the Bosphorus,
-                        bnt it would entirely lack the advantage poseeued by the German systsm of
-                        beiDg a direot railway oommnnioetion with Earope. Betweeo El Koweit and the
+                        than the German road, which starts .from the Asiatio side of the Bosphorus,
+                        but it would entirely lack the advantage poseeued by the German systsm of
+                        being a direot railway oommnnioetion with Earope. Betweeo El Koweit and the
                         frontier of Beluohiatan, where British ioflusnoe is again auprepe, come* 700
                         mile* of Persian territory, which, it is assumed, oannot be muoh longer
                         dosed .to railway . enterprise. There remains but 5)10^ mUea tol oonneot the
@@ -1250,11 +1210,11 @@
                         to the frontier of Bormah, the i'nter^l of 2,500 milee is already traversed;
                         by railways, and a line tupplemantary to that system Is now in prooe*s of
                         construction through British" Burmah. The torminns of this latter is on the
-                        Chinese frontier at Kanlong Ferry, bstweea whioh and Shing- hai there
+                        Chinese frontier at Kanlong Ferry, bstweea which and Shing- hai there
                         remains a diatanoo of 1,600 mile*. The ootaring of this by.the iron road is
                         already in prooeea. Combping the various sections of the system thus
                         outlined, we, adds "Engineering", get a totaf of 6,810 mile?, of which folly
-                        one-third has already been oonstrnoted, and of whioh some important links
+                        one-third has already been oonstrnoted, and of which some important links
                         are in course of bring supplied.</p>
                 </div>
                 <div type="item">
@@ -1265,13 +1225,13 @@
                         atmosphere of Reading University College than when he is robbing shoulders
                         with Socialist extremists. We heartily agree that the univer- sal medioal
                         inspection of aohoolchildron in Germany is an example to be followed as soon
-                        as may be. Bnt it is important to be quite dear as to what should be the
+                        as may be. But it is important to be quite dear as to what should be the
                         sequel to the disoovery by medioal inspector or teacher that a child is too
                         nearly starved to learn or to remain in good condition. The official ioqniry
                         will tell ns before long, no doobt, exactly how for voluntary ohar ty is
                         meeting and can meet the case ; bat ought w6 to trust to, voluntary oharity
                         alone t The S;Oialists’ short cat is the demand for the/ feeding, and oven
-                        the dothing, of the ohildron at the publio expense. Bnt the ratepayer will
+                        the dothing, of the ohildron at the publio expense. But the ratepayer will
                         not and ought not to, take upon himself the paVant’a natural burden. The
                         right prindplsis that accepted by S r John Gorst when he hints at powers for
                         the looal authority to enforoi parental dntiei of this kind the psrant In
@@ -1293,10 +1253,10 @@
                         similar mishaps.</p>
                     <p>F.C. Calvert &amp; Co, Manchester, England.</p>
                 </div>
-                <div type="item" scope="advertisement" xml:id="deg-ad-aaw01">
+                <div type="advert" xml:id="deg-ad-aaw01">
                     <head>ARISTON AERATED WATERS</head>
-                    <p> Guaranteed Distilled.</p>
-                    <p> ALEXANDRIA: 7 Rue de la Poste.</p>
+                    <p>Guaranteed Distilled.</p>
+                    <p>ALEXANDRIA: 7 Rue de la Poste.</p>
                     <p>CAIRO opposite the Tramways Co. Works, Sharia Sahal, Kasr-el-Nil</p>
                 </div>
                 <div type="item">
@@ -1304,27 +1264,27 @@
                         Praotionnemont.dei actions. A partir da lor ootjbre prochain, U 8ooi4t6
                         payora le soldo' do dividendJ ilo l'Bxermoe 1904, savdr: jjtion de capital,
                         coupon N. 32, LB 0.427m/m „ jouisfiuoj, „ H 22,. „ 0.434 „ Part di
-                        fonda'eur, „ „ 32, „ 0.616 „ etprj^dor* enmftmi temps k l'tohange des
+                        fonda'eur, „ „ 32, „ 0.616 „ etprj^dor* enmftmi temps à l'tohange des
                         uoufdfoj aotiou* oontro oelles aotoellee dont le fcaotioauomeat a 616 dtoidA
-                        par l'Assemble {And rale extraordinure dn 9 Mars 1905. Lm iatereisds aaroat
-                        dono k prfwnter lean litres.on mOms temps quo les botderosux namdriqaeA dee
+                        par l'Assemble {And rale extraordinure du 9 Mars 1905. Lm iatereisds aaroat
+                        dono à prfwnter lean litres.on mOms temps quo les botderosux namdriqaeA dee
                         ooapons. Les ooapsns mentionnAs oi-dessas ne derront pas fit re dAtaohAs. Us
                         resteront attaches aux titres pnSsentA*. Ls montant des bordereaux sera p»y6
                         de suite.. Q rant aux titres nouvesnx, en raison da travail qne oette
                         operation d’tohange exi- gera, ils seront dAlivtos ulterienrement; los ao-
-                        tious k ^changer seront dlpoefes oontro r4o4- piesds. La, remise,des titres
-                        nonveanx anra lieu, anuitot qoe possible, snr pro*entation da oes rodpissls.
+                        tious à ^changer seront dlpoefes oontro r4o4- piesds. La, remise,des titres
+                        nonveanx anra lieu, anuitot qoe possible, sur pro*entation da oes rodpissls.
                         L'Aohange des actions sen foit sansoonfor- mite de numAro. La paiement dee
                         ooapons, ainsi qoe I’d- ohjjgo ac* titres, sera effeotal su sibge de la
                         StoiAte ac Cairo et aux gaioheti di Credit Lyoanai«V'Aloxandrie. \ 11 est
                         rappelA qne le fraotionnement dos ti- treadAciifo pir 1’Assemble gAnArale
                         prtoiMe, ee fora oomme suit: a) L’aotion actuelle de ospital sera ^ahaugAa
                         oontro quatro actions de “joaiaeanoe" et one action de "capital” — oette
-                        derail re d’ane valour nominate do 126 Pr. donnant droit k nn intetfit fixe
+                        derail re d’ane valour nominate do 126 Pr. donnant droit à un intetfit fixe
                         de 4 % et rembonmable par'voie de ti rages annuel a. b) L’aotion aotuelle de
                         "jonieunoe” sera AobangAe oontro quatro aotionsde “joaiseanee." o) Le
                         fraotionuement das ’ Parts de fonda- tear" en dixikmes, a 6U igalement
-                        dtoidA, mail il eat foonltstif et le portear qai en fora La demands aura k
+                        dtoidA, mail il eat foonltstif et le portear qui en fora La demands aura k
                         payer les frais de oan- feotion des nonveanx titres. Le Diroctour p.i. L
                         Galvin. Le Cairo.la 14 Septe»brol905. 26128-6*-6</p>
                 </div>
@@ -1358,21 +1318,21 @@
                         should be paid at the shop, or to the Nile Cold Storage Company.
                         26551-3A-2</p>
                 </div>
-                <div type="item" scope="advertisement" xml:id="deg-ad-adr01">
+                <div type="advert" xml:id="deg-ad-adr01">
                     <head>“AU DE ROUGE."</head>
                     <p>GENERAL DRAPERY ETABLISHMENT.</p>
                     <p>(Central Tramway Station), CAIRO.</p>
                     <p>P. PLUNKETT, PROPRIETOR.</p>
                     <p>DIRECT IMPORTER OF BRITISH AND IRISH TEXTILE MANUFACTURES.</p>
                     <p>LADIES’ SUMMER STOCKINGS.</p>
-                    <p> IN SPUN SILK at P.T. 20 per pair.</p>
+                    <p>IN SPUN SILK at P.T. 20 per pair.</p>
                     <p>LISLE THREAD, in plain and lace open-work, in black, white, tan and usual
                         shades, to suit boots worn in Egypt, frpm P.T. 5 per pair.</p>
                     <p>Every pair is marked “Au De Rouge" which is a guarantee that the Color is
                         absolutely fast and stainless.</p>
                     <p>24916-15-11-905</p>
                 </div>
-                <div type="item" scope="advertisement" xml:id="deg-ad-dlc01">
+                <div type="advert" xml:id="deg-ad-dlc01">
                     <head>D C L Scotch Whisky</head>
                     <p>Sole Agents for Egypt &amp; Sudan</p>
                     <p>G. G Drossos &amp; Co.</p>
@@ -1380,7 +1340,7 @@
                     <p>Alexandria. Cairo. Port-Said and Khartoum.</p>
                     <p>1080 31-5-905</p>
                 </div>
-                <div type="item" scope="advertisement" xml:id="deg-ad-clh01">
+                <div type="advert" xml:id="deg-ad-clh01">
                     <head>CIGARES de la HAVANE</head>
                     <p>de provenance directe et de toutes les meilleures marques</p>
                     <p>Nicolas G Sabbag</p>
@@ -1388,18 +1348,18 @@
                     <p>FOURNISSIUR DE S A LE KHEDIVE et de tous les grands Clubs et Hôtels
                         d'Egypte.</p>
                     <p>2—Rue de la Gare du Caire—2 ALEXANDRIE</p>
-                    <p> Adresse Télégraphique : SABBAG Alexandrie</p>
-                    <p> Téléphone No 559.</p>
-                    <p> 246081-26-904</p>
+                    <p>Adresse Télégraphique : SABBAG Alexandrie</p>
+                    <p>Téléphone No 559.</p>
+                    <p>246081-26-904</p>
                 </div>
-                <div type="item" scope="advertisement" xml:id="deg-ad-spa01">
+                <div type="advert" xml:id="deg-ad-spa01">
                     <head>Spathi's Grill Room.</head>
                     <p>Old Bourse St., Alexandria.</p>
                     <p>Greatly enlarged and improved. New Chef. Unrivalled cooking. English
                         specially catered for</p>
                     <p>2063-14-1-906</p>
                 </div>
-                <div type="item" scope="advertisement" xml:id="deg-ad-map01">
+                <div type="advert" xml:id="deg-ad-map01">
                     <head>Maple &amp; Co.</head>
                     <p>The Largest, and Most Convenient Furnishing Establishment in the World
                         HUNDREDS of THOUSANDS of POUNDS WORTH OF HIGH-CLASS FURNITURE, BEDSTEADS,
@@ -1426,24 +1386,12 @@
                         Inclusive f.o.b. estimates when desired.</p>
                     <p>TOTTENHAM COURT ROAD LONDON ENGLAND</p>
                 </div>
-
-                <div type="page" n="5">
-                    <cb n="1"/>
-                    <cb n="2"/>
-                    <cb n="3"/>
-                    <cb n="4"/>
-                    <cb n="5"/>
-                    <cb n="6"/>
-                </div>
-                <div type="page" n="6">
-                    <cb n="1"/>
-                    <cb n="2"/>
-                    <cb n="3"/>
-                    <cb n="4"/>
-                    <cb n="5"/>
-                    <cb n="6"/>
-                </div>
             </div>
+            <pb n="5"/>
+            <div type="page" n="5"> </div>
+            <pb n="6"/>
+            <div type="page" n="6"> </div>
+
         </body>
     </text>
 </TEI>
